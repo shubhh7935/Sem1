@@ -11,12 +11,12 @@ else:
   print(n,"equal pieces are not possible")
 # cake cutting into N pieces of any size
 # no. of pieces=no of cuts
-# so if no. of cuts can devide the care with no decimal quotient, then cake cutting of N pieces of any size would be possible
+# so if no. of cuts can devide the care with no decimal quotient, then cake cutting of N pieces of ant size would be possible
 a= 360%n
-if a is integer:
-  print(n,"pieces possible")
+if (isinstance(a, int)):
+  print(n,"pieces of any possible")
 else:
-  print(n,"pices Not Possible")
+  print(n,"pices of any size Not Possible")
 # cake cutting into  pieces so that no two of them are equal
 
 
